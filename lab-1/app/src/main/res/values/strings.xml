@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">One piece wiki app</string>
+    <string name="login_image">Monkey D. Luffy!</string>
+    <string name="email">gachi@boy.com</string>
+    <string name="password">warface567</string>
+    <string name="successful_login">Successful log in</string>
+    <string name="login_error">Incorrect login or password</string>
+</resources>
