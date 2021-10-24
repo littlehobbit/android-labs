@@ -41,12 +41,12 @@ public class MainActivity extends AppCompatActivity {
                     Intent secondActivity = new Intent(this, SecondActivity.class);
                     secondActivity.putExtra("data", userData);
 
-                    if (email.equals(userEmail) && password.equals(userPassword)) {
+//                    if (email.equals(userEmail) && password.equals(userPassword)) {
                         showToast(getString(R.string.successful_login), Toast.LENGTH_SHORT);
                         startActivity(secondActivity);
-                    } else {
-                        showToast(getString(R.string.login_error), Toast.LENGTH_SHORT);
-                    }
+//                    } else {
+//                        showToast(getString(R.string.login_error), Toast.LENGTH_SHORT);
+//                    }
 
                 }
         );
