@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab1">
         <activity
+            android:name=".NavigationActivity"
+            android:exported="true"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.Lab1.NoActionBar" />
+        <activity
             android:name=".SecondActivity"
             android:exported="true" />
         <activity
